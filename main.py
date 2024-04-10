@@ -1,5 +1,5 @@
-from encoder import encoder
-from encoder import decoder
+from jal_encode import encoder
+from jal_decode import decoder
 
 menu = "Menu\n-------------\n1. Encode\n2. Decode\n3. Quit\n"
 
