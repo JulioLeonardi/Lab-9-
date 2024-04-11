@@ -1,5 +1,5 @@
-from encoder import encoder
-from encoder import decoder
+from jal_encode import encoder
+from vvr_decoder import decode
 
 menu = "Menu\n-------------\n1. Encode\n2. Decode\n3. Quit\n"
 
@@ -15,7 +15,7 @@ if __name__ == "__main__":
             encoded = encoder(password_to_encode)
             print("Your password has been encoded and stored!\n")
         elif usel == "2":
-            decoded = decoder(encoded)
+            decoded = decode(encoded)
             print(f"The encoded password is {encoded}, and the orignal password is {decoded}\n")
         elif usel == "3":
             break
