@@ -1,6 +1,6 @@
-def decode(pass_word):
+def decode(password):
     string2=""
-    for chars in pass_word:
+    for chars in password:
         chars = str((int(chars)+10)-3)
         string2 += chars[-1]
 
